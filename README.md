@@ -1,9 +1,9 @@
 # **SQL code annotations**
 (Anotações de código SQL)
 
-### UPDATE in Database MYSQL
+### UPDATEs in Database MYSQL:
 
->UPDATE in MYSQL database table using JOIN.
+##### UPDATE in MYSQL database table using JOIN.
 >(UPDATE em tabela de banco de dados MYSQL com uso de JOIN.)
 ~~~sql
 # Example:
@@ -13,7 +13,7 @@ SET tb1.time = tb2.time
 WHERE tb2.id IN (1,2,3,4);
 ~~~
 
-### Auters:
+### **Auters**:
 
 - [Anderson Miranda](https://github.com/aluipio)
 
