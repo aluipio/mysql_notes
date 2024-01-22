@@ -49,6 +49,16 @@ FROM <table_1> AS tb1
 WHERE tb1.id IN (1,2,3,4);
 ~~~
 
+##### SELECT in MYSQL database table using FIELD in ORDER BY.
+>(SELECT em tabela de banco de dados MYSQL com uso de FIELD em ORDER BY.)
+~~~sql
+# Example:
+SELECT tb1.<col1>, tb1.<col2>, tb1.<col3>
+FROM <table_1> AS tb1 
+WHERE tb1.<col1> > x;
+order by FIELD(tb1.<col>,'C','A','D','B');
+~~~
+
 ### **Auters**:
 
 - [Anderson Miranda](https://github.com/aluipio)
