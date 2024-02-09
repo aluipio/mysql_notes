@@ -63,6 +63,6 @@ order by FIELD(tb1.<col>,'C','A','D','B');
 
 - [Anderson Miranda](https://github.com/aluipio)
 
-### **Links Úteis**
+### **Links Úteis**:
 
 - [Python Brasil](https://python.org.br/)
